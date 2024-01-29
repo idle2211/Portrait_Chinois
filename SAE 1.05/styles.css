@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
+
+form {
+  text-align: center;
+}
+
+
+
+/* mettre l'image du fon */
+body {
+    background-image: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2ZsNDQzNDE2ODYxNTUtaW1hZ2Uta3R4cmF6M20uanBn.jpg');
+    height: 100vh;
+    margin: 0;
+  }
+  /* pour affecter toutes les cases d'analogies mais pas le formulaire  */
+  section:not(.form) {
+    width: 80%;
+    height: 100vh;
+    margin: 5rem auto;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #fleur {
+    background: rgb(165,45,111);
+background: linear-gradient(0deg, rgba(165,45,111,1) 50%, rgba(165,45,111,0) 100%);
+    color: white;
+    
+  }
+
+  #fleur .container  {
+    width: 100%;
+    height: 80vh;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+
+  #fleur .container .image {
+    width: 50%;
+    margin-right: 2rem;
+  }
+
+  .container {
+    width: 100%;
+    height: 80vh;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .texte {
+    width: 100%;
+  }
+  
+  .si-jetais, .je-serais {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 1.75rem;
+  }
+  
+  .description {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  
+  .image {
+    width: 50%;
+    margin-left: 2rem;
+  }
+/* Pour appliquer des styles differentes pour chaque analogie */
+ #couleur {
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 20%);
+  color: white;
+ }
+
+ #chanson {
+  background: rgb(24,43,82);
+  background: linear-gradient(90deg, rgba(24,43,82,1) 0%, rgba(26,65,109,1) 50%, rgba(0,111,242,1) 100%);
+  color: white;
+  }
+  
+ #saison {
+  background: rgb(124,159,223);
+  background: radial-gradient(circle, rgba(124,159,223,1) 0%, rgba(27,51,255,1) 100%);
+  color: white;
+  }
+
+ #objet {
+  background: rgb(95,33,255);
+  background: linear-gradient(90deg, rgba(95,33,255,1) 0%, rgba(124,208,223,1) 50%, rgba(44,119,255,1) 100%);
+  color: white;
+  }
+
+ #livre {
+  background: rgb(255,34,0);
+  background: linear-gradient(270deg, rgba(255,34,0,1) 0%, rgba(148,29,29,1) 70%);
+  color: white;
+  }  
+ #temps {
+  background: rgb(185,182,236);
+  background: linear-gradient(344deg, rgba(185,182,236,1) 0%, rgb(128, 124, 255) 100%);
+  color: white;
+  } 
+/* Pour mettre en blanc le texte de formulaire */
+  form {
+    color: white;
+  }
+  
+
